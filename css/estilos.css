@@ -1,0 +1,188 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Acme', sans-serif;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #6F2222;
+  color: #ffffff;
+  font-family: 'Quicksand', sans-serif;
+}
+
+header {
+  background-color: #222222;
+}
+
+h1 {
+  font-size: 3em;
+  padding: 10px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 1em;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+p {
+  font-size: 20px;
+  margin: 15px;
+}
+
+a {
+  font-size: 20px;
+}
+
+footer {
+  background-color: #DAD6D6;
+  color: #000000;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+}
+
+footer>p>a {
+  color: #00009E;
+}
+
+footer>p>a:hover {
+  color: #9E0000;
+}
+
+/* Inicio*/
+#ppal,
+#blog,
+#videos,
+#entrada,
+#subeVideo,
+#subeBlog {
+  background-color: #222222;
+  box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
+  margin: 5% 15%;
+  padding: 1%;
+  width: 70%;
+}
+
+#ppal>section>article {
+  margin-bottom: 60px;
+}
+
+#ppal>section>article>img {
+  float: left;
+  margin: 10px;
+  width: 200px;
+  height: 351px;
+}
+
+#ppal>section>article>ul {
+  margin-left: 20px;
+}
+
+#blog {
+  margin-bottom: 18.5%;
+}
+
+#blog>section>article {
+  border-bottom: 1px solid #DAD6D6;
+  margin-bottom: 5%;
+  padding-bottom: 5px;
+}
+
+#blog>section>article>a {
+  margin: 15px;
+}
+
+#entrada>section>article {
+  padding-bottom: 5px;
+}
+
+#entrada>section>article>ul {
+  margin-left: 40px;
+}
+
+#videos {
+  margin-bottom: 12.6%;
+}
+
+#videos>section {
+  display: flex;
+  justify-content: center;
+}
+
+#videos>section>article {
+  margin: 0.8% 2%;
+  text-align: center;
+  width: 250px;
+}
+
+#videos>section>article>video {
+  height: 250px;
+  width: 250px;
+}
+
+#subeVideo {
+  margin-bottom: 17.8%;
+}
+
+.link {
+  color: #CAE7B9;
+}
+
+.link:hover {
+  color: #EB9486;
+}
+
+.pag {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.pag>p {
+  margin: 0 15px;
+}
+
+@media(max-device-width: 768px) {
+  p {
+    font-size: 20px;
+  }
+
+  a {
+    font-size: 20px;
+  }
+
+  #ppal,
+  #blog,
+  #videos,
+  #entrada {
+    margin: 5%;
+    width: 90%;
+  }
+
+  #ppal>section>article>img {
+    margin: 5% 19%;
+  }
+
+  #videos>section {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  #videos>section>article {
+    width: 100%;
+  }
+
+}

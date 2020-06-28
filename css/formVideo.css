@@ -1,0 +1,29 @@
+#videos {
+  align-items: center;
+}
+
+.contenido {
+  display: grid;
+  align-items: center;
+  margin: 10px 15%;
+  width: 70%;
+}
+
+label,
+input,
+button,
+textarea {
+  font-size: 20px;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+button {
+  display: grid;
+  align-items: center;
+  margin: 10px 15% 0;
+  width: 70%;
+  padding: 3px 20px;
+}

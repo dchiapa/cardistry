@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="Description"
+    content="Cardistry es el arte de combinar movimientos o hacer florituras con cartas, es manipulación no mágica de las cartas.">
+  <meta name="keywords"
+    content="Cardistry, cardistry, Florituras, florituras, Manipulacion, manipulacion, Cartas, cartas, Cards, cards, Baraja, baraja">
+  <title>Cardistry</title>
+  <link rel="stylesheet" href="css/estilos.css">
+  <link rel="stylesheet" href="css/formVideo.css">
+  <link rel="stylesheet" href="css/menu.css">
+  <link href="https://fonts.googleapis.com/css?family=Acme&display=swap" rel="stylesheet">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-158057835-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-158057835-2');
+  </script>
+</head>
+
+<body>
+  <header>
+    <h1>Cardistry</h1>
+  </header>
+  <!-- Menu -->
+  <div id="menu">
+    <input type="checkbox" id="menu_btn">
+    <label for="menu_btn" id="menu_lbl"><img src="img/menu_1-6060.png" alt="Menu de navegación"
+        id="menu_lbl_img"></label>
+    <nav id="menu_nav">
+      <ul id="menu_nav_ul">
+        <li class="menu_nav_ul_li"><a href="index.html" class="menu_nav_ul_li_a">Inicio</a></li>
+        <li class="menu_nav_ul_li"><a href="blog.html" class="menu_nav_ul_li_a">Blog</a></li>
+        <li class="menu_nav_ul_li"><a href="videos.html" class="menu_nav_ul_li_a">Videos</a></li>
+        <li class="menu_nav_ul_li"><a href="contacto.html" class="menu_nav_ul_li_a">Contacto</a></li>
+      </ul>
+    </nav>
+  </div> <!-- Menu -->
+  <main id="subeBlog">
+    <h2>Nueva Entrada</h2>
+    <form enctype="multipart/form-data" action="subeBlog.php" method="POST">
+      <div class="contenido">
+        <label for="titulo">Título:</label>
+        <input type="text" id="titulo" name="titulo" required>
+      </div>
+      <div class="contenido">
+        <label for="autor">Autor:</label>
+        <input type="text" id="autor" name="autor" required>
+      </div>
+      <div class="contenido">
+        <label for="archivo">Archivo:</label>
+        <input type="file" id="archivo" name="archivo" required>
+      </div>
+      <div class="boton">
+        <button>Enviar</button>
+      </div>
+    </form>
+  </main>
+  <footer>
+    <p>Derechos reservados &reg; 2020 - <a href="http://diegochiapa.com.ar" target="_blank">Diego Chiapa</a></p>
+  </footer>
+</body>
+
+</html>
